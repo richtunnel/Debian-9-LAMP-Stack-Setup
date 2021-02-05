@@ -1,0 +1,6 @@
+
+Installing PHPMYADMIN
+1. sudo apt-get update
+2. sudo apt install phpmyadmin php-mbstring php-gettext
+3. sudo phpenmod mbstring #enables the mbstring PHP extension which is used to manage non-ASCII strings and convert strings to different encodings.
+4. sudo systemctl restart apache2
